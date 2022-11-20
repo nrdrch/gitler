@@ -30,3 +30,7 @@ shc -f gitler.sh
 ```
 sudo cp -r gitler.sh.x /usr/bin/gitler
 ```
+After that you can just use it with the command
+```
+gitler
+```
