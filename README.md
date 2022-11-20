@@ -1,2 +1,3 @@
 ## gitler
-#### Grabs Links Ending On .git From Your Clipboard, Git-Clone's Them Into Your Favourate Directory And Tries To Build Them.
+#### Grabs git clone-able link from your clipboard and clones them into a predefined Directory.
+#### has the option to automatically install AUR packages after you cloned them. 
