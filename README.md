@@ -7,7 +7,7 @@ git clone https://github.com/nrdrch/gitler.git | cd gitler/
 ```
 - If the .sh file is not executable use
 ```
-chmod +x /path/to/gitler.sg
+chmod +x /path/to/gitler.sh
 ```
 - To run the script just use 
 ```
