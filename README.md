@@ -1,7 +1,7 @@
 # gitler
 Grabs clone-able links from your Clipboard and clones them into a predefined Directory. Has the option to automatically install AUR packages after you cloned them. 
 ### To Download & Use:
-- Put the .sh file somehwere you feel comfortable with, preferably in your home Directory.
+- Put the .sh file somehwere you feel comfortable with, preferably somewhere in your home Directory.
 ```
 git clone https://github.com/nrdrch/gitler.git | cd gitler/
 ```
