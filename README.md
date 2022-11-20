@@ -1,36 +1,43 @@
-# gitler
-Grabs clone-able links from your Clipboard and clones them into a predefined Directory. Has the option to automatically install AUR packages after you cloned them. 
-### To Download & Use:
-- Put the .sh file somehwere you feel comfortable with, preferably somewhere in your home Directory.
+# **Gitler**
+- [**Gitler**](#gitler)
+    - [**:one: Recommended Method**](#one-recommended-method)
+    - [**:two: You could also Run it as a Shell Script**](#two-you-could-also-run-it-as-a-shell-script)
+    - [**:three: or Compile the source script on your own**](#three-or-compile-the-source-script-on-your-own)
+
 ```
-git clone https://github.com/nrdrch/gitler.git | cd gitler/
+git clone https://github.com/nrdrch/gitler.git
 ```
-- If the .sh file is not executable use
+
+### **:one: Recommended Method**
+- Inside the newly created folder you will find a file named "gitler-bin"  
+- Copy the file gitler-bin into /usr/bin/gitler with: 
 ```
-chmod +x gitler.sh
+sudo cp -r gitler-bin /usr/bin/gitler
 ```
-- To run the script just use 
+Done! To run just use:
 ```
-./gitler.sh 
+gitler
 ```
-### You could either make an alias now
-Now you could define an alias to run the script more easily like this in your ~/.bashrc
+
+
+### **:two: You could also Run it as a Shell Script**
+- You have to define an alias to run the script more easily like this in your ~/.bashrc
 ```
 alias gitler='/home/username/path/2/./gitler.sh'
 ```
-Or if you use fish like this in your terminal
+- Or if you use fish like this in your terminal
 ```
 alias --save gitler="/home/username/path/2/./gitler.sh"
 ```
-### OR
-To compile the script to binary and make it even more effortless to use, move to the Install-Location of gitler.sh und run:
+- Make The File executable 
+```
+chmod +x gitler.sh
+```
+### **:three: or Compile the source script on your own**
+- To compile the script to binary yourself, move to the Install-Location of gitler.sh und run:
 ```
 shc -f gitler.sh
 ```
 ```
 sudo cp -r gitler.sh.x /usr/bin/gitler
-```
-After that you can just use it with the command
-```
-gitler
 ```
