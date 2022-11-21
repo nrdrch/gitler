@@ -23,11 +23,11 @@ gitler
 ### **:two: You could also Run it as a Shell Script**
 - You have to define an alias to run the script more easily like this in your ~/.bashrc
 ```
-alias gitler='/home/username/path/2/./gitler.sh'
+alias gitler='/home/username/path/2/gitler.sh'
 ```
 - Or if you use fish like this in your terminal
 ```
-alias --save gitler="/home/username/path/2/./gitler.sh"
+alias --save gitler="/home/username/path/2/gitler.sh"
 ```
 - Make The File executable 
 ```
